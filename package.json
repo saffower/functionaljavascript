@@ -1,0 +1,20 @@
+{
+  "name": "learning-functional",
+  "version": "1.0.0",
+  "description": "functional lib and examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "playground": "babel-node functional-playground/play.js --presets es2017-node7",
+    "danrun" : "babel-node functional-playground/play.js"
+  },
+  "author": "dan deng @danhdeng",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "babel-preset-es2017-node7": "^0.5.2"
+  }
+}
